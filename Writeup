@@ -1,0 +1,19 @@
+https://tryhackme.com/room/picklerick
+PT-BR:
+
+Neste CTF, devemos encontrar na máquina alvo 3 Flags, que neste caso são 3 ingredientes secretos.
+
+Primeiramente vamos fazer um breve reconhecimento da máquina, utilizando o NMAP.
+Comando utilizado: nmap -T4 -sC -sV -A -p- 10.10.180.74
+
+O que o comando faz: 
+-T4 = Define a velocidade do scan
+-sC = Faz o scan com o script padrão
+-sV = mostra a versão dos serviços em execução na máquina alvo
+-A = realiza um scan agressivo
+-p- = scaneia todas as portas
+
+*CASO O SCAN ESTEJA DEMORANDO MUITO, A VERSÃO SIMPLIFICADA DO NMAP TAMBÉM PODE SER UTILIZADA:
+
+
+
